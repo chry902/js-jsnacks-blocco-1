@@ -1,0 +1,1 @@
+let = prompt("inserisci un numero")
