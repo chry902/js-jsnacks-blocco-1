@@ -1,19 +1,14 @@
 /**crea un array con i nomi delgli invitati , chiedi all'utente il nome 
  e comunicagli se puo partecipare alla festa */
-let listaInvitati = ("[francesco],[giovanni],[marco],[alessandro]");
-console.log(`lista invitati ${listaInvitati}`);
+let lista_invitati = ("[francesco],[giovanni],[marco],[alessandro]");
+console.log(`lista invitati ${lista_invitati}`);
 
-let nomeInvitato = prompt("verifica se il tuo nome e tra quelli delgi invitati");
-console.log(`il nome inserito è ${nomeInvitato}`);
+let nome_invitato = prompt("verifica se il tuo nome e tra quelli delgi invitati");
+console.log(`il nome inserito è ${nome_invitato}`);
 
 
-for (let index = 0; index = listaInvitati.length; index++) {
-
-    if (nomeInvitato == listaInvitati) {
-        alert(`sei nella lista, benvenuto ${listaInvitati[index]}`);
-        console.log(`sei nella lista, benvenuto ${nomeInvitato}`);
-    } else {
-        //alert(`non sei invitato`)
-        console.log(`non sei invitato`);
-    }
+if (lista_invitati.includes(nome_invitato.includes(nome_invitato))) {
+    console.log(`welcome`);
+} else {
+    console.log(`sorry`);
 }

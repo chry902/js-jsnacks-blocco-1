@@ -1,6 +1,11 @@
-let numero_chiesto = prompt("inserisci un numero")
+let result = 0;
 
-for (let index = 0; index < array.length; index++) {
-    const element = array[index];
 
+
+
+for (let i = 0; i < 10; i++) {
+    const user_number = parseInt(prompt(`type a number`));
+    result += user_number;
 }
+
+console.log(result);
